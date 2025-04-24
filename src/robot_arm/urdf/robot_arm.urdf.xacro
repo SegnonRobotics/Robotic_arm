@@ -4,11 +4,44 @@
     <xacro:property name="base_length" value="0.1" />
     <xacro:property name="base_width" value="0.1" />
     <xacro:property name="base_height" value="0.05" />
+    <xacro:property name="base_radius" value="0.05" />
+    <xacro:property name="base_depth" value="0.03" />
+    <xacro:property name="arm_radius" value="0.02" />
+    <xacro:property name="arm_depth" value="0.1" />
+    <xacro:property name="gripper_radius" value="0.04" />
+    <xacro:property name="gripper_length" value="0.05" />
 
     <link name="base_link">
         <visual>
             <geometry>
                 <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="base2_link">
+        <visual>
+            <geometry>
+                <cylinder size="${base_radius} ${base_depth}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="arm_link">
+        <visual>
+            <geometry>
+                <cylinder size="${arm_radius} ${arm_depth}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="gripper_link">
+        <visual>
+            <geometry>
+                <cone size="${gripper_radius} ${gripper_length}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </visual>
