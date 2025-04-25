@@ -1,0 +1,9 @@
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/uninstall.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/robot_arm_uninstall.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/test.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/edit_cache.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/rebuild_cache.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/list_install_components.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/install.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/install/local.dir
+/home/nimrod/robot_arm/build/robot_arm/CMakeFiles/install/strip.dir

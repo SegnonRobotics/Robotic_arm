@@ -1,0 +1,17 @@
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf/robot_arm.urdf.xacro
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm//launch/display.launch.xml
+/home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+/home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/path.sh
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/path.dsv
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.bash
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.sh
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.zsh
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.dsv
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/package.dsv
+/home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm/package.xml
