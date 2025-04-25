@@ -46,4 +46,22 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
         </visual>
     </link>
+
+    <joint name="base_base2_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="base2_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint>
+
+    <joint name="base2_arm_joint" type="revolute">
+        <parent link="base2_link" />
+        <child link="arm_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint>
+
+    <joint name="arm_gripper_joint" type="fixed">
+        <parent link="arm_link" />
+        <child link="gripper_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint>   
 </robot>
