@@ -1,0 +1,56 @@
+[0.477s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nimrod/robot_arm']
+[0.477s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/nimrod/robot_arm'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dd8cdcb1910>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7dd8cdcb08f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7dd8cdcb08f0>>, mixin_verb=('list',))
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.652s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nimrod/robot_arm'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'python'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/build) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/build) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/build) ignored
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/install) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/install) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/install) ignored
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/log) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/log) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/log) ignored
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nimrod/robot_arm/src/robot_arm) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nimrod/robot_arm/src/robot_arm' with type 'ros.ament_cmake' and name 'robot_arm'
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

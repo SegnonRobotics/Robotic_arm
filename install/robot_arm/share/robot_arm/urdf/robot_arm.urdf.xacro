@@ -11,6 +11,22 @@
     <xacro:property name="gripper_radius" value="0.04" />
     <xacro:property name="gripper_length" value="0.05" />
 
+    <material name="grey">
+        <color rgba="0.7 0.4 0 1" />
+    </material>  
+
+    <material name="blue">
+        <color rgba="0 0 0.7 1" />
+    </material>  
+
+    <material name="green">
+        <color rgba="0 1 0 1" />
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1" />
+    </material> 
+
     <link name="base_footprint" />
 
     <link name="base_link">
@@ -19,6 +35,7 @@
                 <box size="${base_length} ${base_width} ${base_height}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="grey" />
         </visual>
     </link>
 
@@ -28,6 +45,7 @@
                 <cylinder radius="${base_radius}" length="${base_depth}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="red" />
         </visual>
     </link>
 
@@ -37,6 +55,7 @@
                 <cylinder radius="${arm_radius}" length="${arm_depth}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="green" />
         </visual>
     </link>
 
@@ -46,6 +65,7 @@
                 <cylinder radius="${gripper_radius}" length="${gripper_length}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue" />
         </visual>
     </link>
 
@@ -53,6 +73,7 @@
         <parent link="base_footprint" />
         <child link="base_link" />
         <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 0" />
     </joint>
 
     <joint name="base_base2_joint" type="fixed">
