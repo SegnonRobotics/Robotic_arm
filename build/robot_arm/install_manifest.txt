@@ -1,4 +1,6 @@
 /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf/robot_arm.urdf.xacro
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf/robot_prop.xacro
+/home/nimrod/robot_arm/install/robot_arm/share/robot_arm//launch/robot_arm_gazebo.launch.py
 /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//launch/display.launch.xml
 /home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
 /home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm

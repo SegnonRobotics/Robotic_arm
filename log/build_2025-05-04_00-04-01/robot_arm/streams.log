@@ -1,0 +1,44 @@
+[0.017s] Invoking command in '/home/nimrod/robot_arm/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nimrod/robot_arm/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/nimrod/robot_arm/install/robot_arm
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.181s] -- The CXX compiler identification is GNU 13.3.0
+[0.206s] -- Detecting C compiler ABI info
+[0.334s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.523s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.544s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.079s] -- Configuring done (1.0s)
+[1.083s] -- Generating done (0.0s)
+[1.085s] -- Build files have been written to: /home/nimrod/robot_arm/build/robot_arm
+[1.092s] Invoked command in '/home/nimrod/robot_arm/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nimrod/robot_arm/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/nimrod/robot_arm/install/robot_arm
+[1.094s] Invoking command in '/home/nimrod/robot_arm/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/robot_arm/build/robot_arm -- -j4 -l4
+[1.163s] Invoked command in '/home/nimrod/robot_arm/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/robot_arm/build/robot_arm -- -j4 -l4
+[1.179s] Invoking command in '/home/nimrod/robot_arm/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/robot_arm/build/robot_arm
+[1.195s] -- Install configuration: ""
+[1.195s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf
+[1.195s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf/robot_arm.urdf.xacro
+[1.196s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//urdf/robot_prop.xacro
+[1.196s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//launch
+[1.196s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm//launch/display.launch.xml
+[1.196s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+[1.197s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+[1.197s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+[1.197s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+[1.197s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/path.sh
+[1.198s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/environment/path.dsv
+[1.198s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.bash
+[1.198s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.sh
+[1.198s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.zsh
+[1.199s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/local_setup.dsv
+[1.199s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/package.dsv
+[1.199s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+[1.199s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+[1.200s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+[1.200s] -- Installing: /home/nimrod/robot_arm/install/robot_arm/share/robot_arm/package.xml
+[1.204s] Invoked command in '/home/nimrod/robot_arm/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/robot_arm/build/robot_arm
